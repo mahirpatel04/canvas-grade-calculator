@@ -43,9 +43,9 @@ def CalculateWeightedGrade(course):
     print("YOUR CURRENT PERCENTAGE FOR THIS CLASS IS: " + str(round(totalPercentage, 3)) + "%")
     
 # Canvas API URL
-API_URL = "https://elearn.ucr.edu"
+API_URL = "Enter canvas url such as: https://elearn.<school_name>.edu"
 # Canvas API key
-API_KEY = "14493~ZvWG92XTxD7gfTh1v5b0mDpgPr2Rp0WkXEU1X0pQG0xrmh6HHAOjaDT06aVc9j1E"
+API_KEY = "Enter unique API_KEY that you can get from Canvas"
 
 # Initialize a new Canvas object
 canvas = Canvas(API_URL, API_KEY)
